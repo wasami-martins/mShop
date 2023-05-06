@@ -1,0 +1,18 @@
+.table tr td img {
+  width: 80px !important;
+  height: 8 0px !important;
+  object-fit: cover;
+}
+
+td i {
+  cursor: pointer;
+}
+
+td,
+th {
+  color: (--primary-color);
+}
+
+.btn-cart button a {
+  color: #fff;
+}

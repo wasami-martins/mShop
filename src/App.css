@@ -1,0 +1,142 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/*  css variables */
+:root {
+  --card-bg-01: #fdefe6;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --primary-color: #0a1d37;
+  --hero-bg: #d6e5fb;
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0a1d37;
+  --dark-blue: #0a1930;
+  --color-dark: #333;
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: orangered;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: unset;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+.--btn {
+  text-transform: uppercase;
+  color: #fff !important;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.25rem;
+  display: inline-block;
+  font-weight: 600;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.--btn:hover {
+  transform: translateY(-2px);
+}
+
+.--btn-lg {
+  padding: 8px 10px;
+}
+
+.--btn-block {
+  width: 100%;
+}
+
+.--btn-primary {
+  color: #fff;
+  background: #007bff;
+}
+.--btn-secondary {
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+}
+.--btn-danger {
+  color: #fff;
+  background: orangered;
+}
+
+.--btn-success {
+  color: #fff;
+  background: #28a745;
+}
+
+.section__title {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0px;
+  }
+}

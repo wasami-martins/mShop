@@ -1,0 +1,46 @@
+.timer__count {
+  background: var(--primary-color);
+  height: 300px;
+}
+
+.timer__count img {
+  width: 70% !important;
+  height: 70% !important;
+  object-fit: contain;
+}
+
+.store__btn a {
+  background: #fff;
+  color: orangered;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 8px;
+  border: 1px solid transparent;
+  margin: 0 5px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+@media only screen and (max-width: 992px) {
+  .counter__img {
+    display: none;
+  }
+  .clock__top-content {
+    text-align: center;
+  }
+  .clock__top-content h4 {
+    font-size: 0.9rem !important;
+  }
+  .clock__top-content h3 {
+    font-size: 1rem !important;
+  }
+  .count__down-col {
+    text-align: center;
+    display: inline-block;
+    margin-top: 4px;
+  }
+}
