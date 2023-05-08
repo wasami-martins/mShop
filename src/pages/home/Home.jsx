@@ -5,7 +5,6 @@ import Slider from "../../components/slider/Slider";
 import Services from "../../components/services/Services";
 import ProductsList from "../../components/UI/ProductsList";
 import products from "../../assets/data/products";
-import Timer from "../../components/timer/Timer";
 import Arrival from "../../components/new arrival/Arrival";
 import PopularProducts from "../../components/popular products/PopularProducts";
 
@@ -48,7 +47,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <Timer />
+
       <Arrival />
       <PopularProducts />
     </Helmet>

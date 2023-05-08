@@ -1,14 +1,14 @@
 export const sliderData = [
   {
     id: 1,
-    image: "/assets/watch.png",
+    image: "/assets/sofa.png",
+    heading: "CHAIRS",
 
-    heading: "WRIST WATCHES",
     desc: "up to 30% off on all products",
   },
   {
     id: 2,
-    image: "/assets/phone.png",
+    image: "/assets/phone-bg-02.jpg",
 
     heading: "PHONES",
     desc: "up to 30% off on all products",
@@ -21,8 +21,8 @@ export const sliderData = [
   },
   {
     id: 4,
-    image: "/assets/sofa.png",
-    heading: "CHAIRS",
+    image: "/assets/wireless-03.png",
+    heading: "HEADSET",
     desc: "up to 30% off on all products",
   },
 ];
